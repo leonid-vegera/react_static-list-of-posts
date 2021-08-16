@@ -1,0 +1,22 @@
+.postList {
+  &__list {
+    padding: 0;
+  }
+  &__item {
+    margin: 20px;
+    padding: 10px 15px;
+    border: 2px solid rgb(204, 202, 202);
+    border-radius: 2px;
+    background-color: rgb(231, 228, 228);
+    list-style: none;
+
+    &:hover {
+      background-color: #fff;
+      box-shadow: 10px 10px 15px grey;
+
+      .post__article {
+        background: rgb(191, 219, 219);
+      }
+    }
+  }
+}

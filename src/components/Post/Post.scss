@@ -1,0 +1,17 @@
+.post {
+  &__article {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid rgb(204, 202, 202);
+  background-color: #fff;
+  }
+
+  &__text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__title {
+    padding-bottom: 10px;
+  }
+}
